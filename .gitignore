@@ -1,0 +1,62 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+
+# Build outputs
+dist/
+frontend/dist/
+dist-ssr/
+frontend/dist-ssr/
+
+# Python cache & build files
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database files
+backend/instance/
+instance/
+*.db
+*.sqlite
+
+# Environment variables (contains sensitive secrets/credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
